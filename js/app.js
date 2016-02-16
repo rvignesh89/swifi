@@ -5,7 +5,7 @@ var win = gui.Window.get();
 // Create a tray icon
 var tray = new gui.Tray({
   title: 'Tray',
-  icon: 'img/tray.png'
+  icon: 'img/logo_ico.png'
 });
 
 
@@ -26,8 +26,9 @@ menu.append(new gui.MenuItem({
     gui.Window.open('about.html', {
       position: 'center',
       toolbar: false,
-      width: 368,
-      height: 327
+      width: 414,
+      height: 409,
+      icon: "img/logo_medium.png"
     });
   }
 }));

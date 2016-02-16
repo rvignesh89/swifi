@@ -1,8 +1,9 @@
 {
   "name": "Swifi",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.html",
   "window": {
-    "toolbar": false
+    "toolbar": false,
+    "icon": "img/logo_medium.png"
   }
 }
