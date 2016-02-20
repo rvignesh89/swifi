@@ -4,6 +4,6 @@
   "main": "index.html",
   "window": {
     "toolbar": false,
-    "icon": "img/logo_medium.png"
+    "icon": "img/logo.ico"
   }
 }
