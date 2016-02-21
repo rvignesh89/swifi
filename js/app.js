@@ -48,4 +48,6 @@ menu.append(new gui.MenuItem({
 }));
 tray.menu = menu;
 
-win.hide();
+manageWifiMenuItem(menu);
+
+//win.hide();
