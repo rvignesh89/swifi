@@ -2,6 +2,7 @@ var spawn = require('child_process').spawn;
 var _progressBar = document.getElementById('progress');
 
 var _disableWifi = function() {
+  _progressBar.innerHTML += 'Disabling Wifi<br/>';
   var child = spawn('powershell.exe', ['-Command', 'Get-NetAdapter -Name "wi-fi" | Disable-NetAdapter -Confirm:$false']);
   child.stdout.on("data", function(data) {
     console.log("Powershell Data: " + data);
